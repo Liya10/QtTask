@@ -8,7 +8,7 @@
     <p> QString result;</p> 
      <p>  QRegExp rx("(\\b[A-Z][a-z]+\\s\\b[A-Z].(\\b[A-Z].){0,1})");</p> 
      <p>  rx.indexIn(in, 0) != -1 ? result = rx.cap(1) : result = "";</p> 
-      <p color='red'>  result=result.trimmed();</p> 
+      <p style='color:red'>  result=result.trimmed();</p> 
      <p color='red'>   result=result.toUpper();</p> 
        <p>  return result;</p> 
 
