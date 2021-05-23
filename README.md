@@ -1,6 +1,5 @@
 # 1.Найдите ошибки в коде
 
-Красный выделенные строки, которые подверглись изменению.
 Эта функция была протестирована и исправлена.
 
 <p> QString findString(QString in)</p>
@@ -8,8 +7,8 @@
     <p> QString result;</p> 
      <p>  QRegExp rx("(\\b[A-Z][a-z]+\\s\\b[A-Z].(\\b[A-Z].){0,1})");</p> 
      <p>  rx.indexIn(in, 0) != -1 ? result = rx.cap(1) : result = "";</p> 
-      <p style='color:red'>  result=result.trimmed();</p> 
-     <p color='red'>   result=result.toUpper();</p> 
+      <p >  result=result.trimmed();//тут исправили</p> 
+     <p >   result=result.toUpper();//тут исправили</p> 
        <p>  return result;</p> 
 
 }
@@ -25,3 +24,8 @@
 
 <p> 5) Да, возможно, создать встроенную функцию. </p> 
 
+# 3. Реализуйте класс
+<p>Класс был реализован, смотреть на папку QLabel_Timer</p>
+
+# 4. Реализуйте класс
+<p>в процессе, до 8 утра отправлю.</p>
